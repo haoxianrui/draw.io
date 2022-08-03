@@ -1,0 +1,86 @@
+<mxfile host="65bd71144e">
+    <diagram id="sgqy0U5VhxCxPnF3bILq" name="第 1 页">
+        <mxGraphModel dx="3028" dy="790" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="129" value="实验室(youlai-lab)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="-1430" y="280" width="100" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="注册" style="html=1;verticalAlign=bottom;endArrow=block;" parent="129" edge="1" source="129">
+                    <mxGeometry x="-0.7681" y="-10" width="80" relative="1" as="geometry">
+                        <mxPoint x="50" y="70" as="sourcePoint"/>
+                        <mxPoint x="830" y="80" as="targetPoint"/>
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="125" value="TM" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#DB2843;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" parent="1" vertex="1">
+                    <mxGeometry x="-1340" y="270" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="订单服务(mall-oms)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="-1270" y="280" width="120" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="RM" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#0085FC;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" parent="1" vertex="1">
+                    <mxGeometry x="-1160" y="270" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="商品服务(mall-pms)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="-1070" y="280" width="130" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="注册" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;dashPattern=1 2;" edge="1" parent="142">
+                    <mxGeometry x="-0.6721" y="-10" width="80" relative="1" as="geometry">
+                        <mxPoint x="-140" y="100" as="sourcePoint"/>
+                        <mxPoint x="470" y="100" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="190.5" y="100"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="163" value="注册" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;dashPattern=1 2;" edge="1" parent="142">
+                    <mxGeometry x="0.55" y="-10" width="80" relative="1" as="geometry">
+                        <mxPoint x="70" y="140" as="sourcePoint"/>
+                        <mxPoint x="470" y="140" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="143" value="RM" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#0085FC;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" parent="1" vertex="1">
+                    <mxGeometry x="-950" y="270" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="会员服务(mall-ums)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="-850" y="280" width="120" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="RM" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#0085FC;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" parent="1" vertex="1">
+                    <mxGeometry x="-740" y="270" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="seata-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="-650" y="280" width="100" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;dashPattern=1 2;" edge="1" parent="146">
+                    <mxGeometry x="-0.7691" width="80" relative="1" as="geometry">
+                        <mxPoint x="-730" y="180" as="sourcePoint"/>
+                        <mxPoint x="50.5" y="180" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="170" value="@GlobalTransactional&lt;br&gt;开启全局事务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="167">
+                    <mxGeometry x="-0.7976" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="123" value="TC" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#33A64C;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" parent="1" vertex="1">
+                    <mxGeometry x="-570" y="270" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="注册" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="142" target="146">
+                    <mxGeometry x="-0.4303" y="-10" width="80" relative="1" as="geometry">
+                        <mxPoint x="-1210" y="440" as="sourcePoint"/>
+                        <mxPoint x="-600" y="440" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-990" y="400"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
